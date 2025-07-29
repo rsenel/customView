@@ -1,0 +1,20 @@
+deployAs:
+   - name: integration-views
+     applicationType: merchant-center-custom-view
+     configuration:
+       standardConfiguration:
+         - key: CUSTOM_VIEW_ID
+           description: The Custom View ID is provided when you add a Custom View in the Merchant Center
+           required: true
+         - key: CLOUD_IDENTIFIER
+           description: one of the following gcp-us, gcp-eu, aws-us, aws-eu
+           required: true
+           default: 'gcp-eu'
+         - key: GOOGLE_MAP_ORIGIN
+           description: the fake sender address to be used
+           required: true
+           default: 'Adams-Lehmann-Straße+44,+80797+München'
+       securedConfiguration:
+         - key: GOOGLE_MAP_KEY
+           description: The Google Map Key to be used
+           required: true
