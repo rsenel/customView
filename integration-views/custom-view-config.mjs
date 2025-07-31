@@ -15,7 +15,7 @@ const config = {
     },
     production: {
       customViewId: 'cmdr6vxfh00361201i3pifhzt',
-      url: '${env:APPLICATION_URL}',
+      url: 'https://mc-view-l3fwfpvhzgdbcep6nzkl265x.europe-west1.gcp.3.sandbox.commercetools.app',
     },
   },
   headers: {
