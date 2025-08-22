@@ -14,8 +14,8 @@ const config = {
         '/commercetools-poc-walbusch/customers/0d219f78-bdc4-4bbd-b1ee-ea069d053c27/general',
     },
     production: {
-      customViewId: '${env:CUSTOM_VIEW_ID}',
-      url: '${env:APPLICATION_URL}',
+      customViewId: 'cmdr6vxfh00361201i3pifhzt',
+      url: 'https://mc-view-bn333ilkw7uwn2ojtnejcmgr.europe-west1.gcp.3.sandbox.commercetools.app',
     },
   },
   headers: {
