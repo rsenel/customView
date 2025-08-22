@@ -5,8 +5,7 @@ coverage
 *.tfstate
 *.tfstate.backup
 
-!.env
-.env.local
+
 
 .DS_Store
 .vscode
